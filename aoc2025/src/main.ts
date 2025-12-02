@@ -1,5 +1,5 @@
 import './style.css'
-import { getSecretCode } from './day1'
+import day2 from './day2'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -7,4 +7,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `
 
-void getSecretCode()
+day2()
