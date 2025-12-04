@@ -1,5 +1,5 @@
 import './style.css'
-import day2 from './day2'
+import day from './day3'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -7,4 +7,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `
 
-day2()
+day()
