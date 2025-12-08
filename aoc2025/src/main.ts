@@ -1,5 +1,5 @@
 import './style.css'
-import day from './day3'
+import day from './day4'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
